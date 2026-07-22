@@ -3,17 +3,17 @@ import { motion } from "framer-motion";
 const skills = [
   {
     name: "Cybersecurity",
-    level: 90,
+    level: 85,
   },
 
   {
-    name: "Networking",
-    level: 85,
+    name: "Network",
+    level: 60,
   },
 
   {
     name: "React Development",
-    level: 85,
+    level: 50,
   },
 
   {
@@ -23,12 +23,12 @@ const skills = [
 
   {
     name: "Data Analysis",
-    level: 80,
+    level: 30,
   },
 
   {
     name: "IT Support",
-    level: 90,
+    level: 95,
   },
 ];
 
@@ -84,13 +84,16 @@ gap-8
                 delay: index * 0.1,
               }}
               className="
-bg-white/5
+bg-black/40
 border
 border-cyan-500/20
 backdrop-blur-md
 rounded-xl
 p-6
 shadow-lg
+hover:shadow-cyan-500/50
+hover:scale-105
+transition
 "
             >
               <div
