@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, Download } from "lucide-react";
+import { Mail, GithubIcon, Linkedin, Download } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -99,7 +99,7 @@ mt-2
             </p>
           </a>
 
-          {/* Github */}
+          {/* GithubIcon */}
 
           <a
             href="#"
@@ -112,7 +112,7 @@ hover:scale-105
 transition
 "
           >
-            <Github
+            <GithubIcon
               className="
 text-cyan-400
 mb-3
