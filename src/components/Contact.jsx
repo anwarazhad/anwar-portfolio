@@ -173,7 +173,7 @@ mt-10
 "
         >
           <a
-            href="C:\Users\adlin\anwar-portfolio\anwar-portfolio\src\assets"
+            href="\src\assets\AnwarAzhad_Resume.pdf"
             download
             className="
 inline-flex
