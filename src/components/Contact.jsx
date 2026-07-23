@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import { Download } from "lucide-react";
+import { Download, Eye } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -65,11 +65,57 @@ export default function Contact() {
           </a>
         </div>
 
-        <div className="text-center mt-10">
+        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-10">
+          {/* View Resume */}
           <a
             href={`${import.meta.env.BASE_URL}AnwarAzhad_Resume.pdf`}
-            download
-            className="inline-flex items-center gap-3 px-8 py-3 bg-cyan-400 text-black rounded-full font-bold hover:scale-105 transition"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
+      inline-flex
+      items-center
+      justify-center
+      gap-3
+      px-8
+      py-3
+      rounded-full
+      border
+      border-cyan-400
+      text-cyan-400
+      font-bold
+      transition-all
+      duration-300
+      hover:bg-cyan-400
+      hover:text-black
+      hover:scale-105
+      hover:shadow-[0_0_20px_rgba(34,211,238,0.5)]
+    "
+          >
+            <Eye size={20} />
+            VIEW RESUME
+          </a>
+
+          {/* Download Resume */}
+          <a
+            href={`${import.meta.env.BASE_URL}AnwarAzhad_Resume.pdf`}
+            download="AnwarAzhad_Resume.pdf"
+            className="
+      inline-flex
+      items-center
+      justify-center
+      gap-3
+      px-8
+      py-3
+      rounded-full
+      bg-cyan-400
+      text-black
+      font-bold
+      transition-all
+      duration-300
+      hover:scale-105
+      hover:bg-cyan-300
+      hover:shadow-[0_0_20px_rgba(34,211,238,0.6)]
+    "
           >
             <Download size={20} />
             DOWNLOAD RESUME
