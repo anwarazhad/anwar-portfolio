@@ -403,24 +403,24 @@ font-semibold
 ${e.status===`ACTIVE`?`text-yellow-400`:`text-green-400`}
 
 `,children:[`STATUS: `,e.status]})]})]},t))]})]})}var Ld={color:void 0,size:void 0,className:void 0,style:void 0,attr:void 0},Rd=b.createContext&&b.createContext(Ld),zd=[`attr`,`size`,`title`];function Bd(e,t){if(e==null)return{};var n,r,i=Vd(e,t);if(Object.getOwnPropertySymbols){var a=Object.getOwnPropertySymbols(e);for(r=0;r<a.length;r++)n=a[r],t.indexOf(n)===-1&&{}.propertyIsEnumerable.call(e,n)&&(i[n]=e[n])}return i}function Vd(e,t){if(e==null)return{};var n={};for(var r in e)if({}.hasOwnProperty.call(e,r)){if(t.indexOf(r)!==-1)continue;n[r]=e[r]}return n}function Hd(){return Hd=Object.assign?Object.assign.bind():function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)({}).hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e},Hd.apply(null,arguments)}function Ud(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);t&&(r=r.filter(function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable})),n.push.apply(n,r)}return n}function Wd(e){for(var t=1;t<arguments.length;t++){var n=arguments[t]==null?{}:arguments[t];t%2?Ud(Object(n),!0).forEach(function(t){Gd(e,t,n[t])}):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(n)):Ud(Object(n)).forEach(function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(n,t))})}return e}function Gd(e,t,n){return(t=Kd(t))in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function Kd(e){var t=qd(e,`string`);return typeof t==`symbol`?t:t+``}function qd(e,t){if(typeof e!=`object`||!e)return e;var n=e[Symbol.toPrimitive];if(n!==void 0){var r=n.call(e,t||`default`);if(typeof r!=`object`)return r;throw TypeError(`@@toPrimitive must return a primitive value.`)}return(t===`string`?String:Number)(e)}function Jd(e){return e&&e.map((e,t)=>b.createElement(e.tag,Wd({key:t},e.attr),Jd(e.child)))}function Yd(e){return t=>b.createElement(Xd,Hd({attr:Wd({},e.attr)},t),Jd(e.child))}function Xd(e){var t=t=>{var n=e.attr,r=e.size,i=e.title,a=Bd(e,zd),o=r||t.size||`1em`,s;return t.className&&(s=t.className),e.className&&(s=(s?s+` `:``)+e.className),b.createElement(`svg`,Hd({stroke:`currentColor`,fill:`currentColor`,strokeWidth:`0`},t.attr,n,a,{className:s,style:Wd(Wd({color:e.color||t.color},t.style),e.style),height:o,width:o,xmlns:`http://www.w3.org/2000/svg`}),i&&b.createElement(`title`,null,i),e.children)};return Rd===void 0?t(Ld):b.createElement(Rd.Consumer,null,e=>t(e))}function Zd(e){return Yd({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z`},child:[]}]})(e)}function Qd(e){return Yd({tag:`svg`,attr:{viewBox:`0 0 496 512`},child:[{tag:`path`,attr:{d:`M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z`},child:[]}]})(e)}function $d(e){return Yd({tag:`svg`,attr:{viewBox:`0 0 512 512`},child:[{tag:`path`,attr:{d:`M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z`},child:[]}]})(e)}function ef(){return(0,k.jsx)(`section`,{id:`contact`,className:`min-h-screen px-6 py-20 flex items-center justify-center`,children:(0,k.jsxs)(ad.div,{initial:{opacity:0,y:50},whileInView:{opacity:1,y:0},transition:{duration:.7},className:`max-w-4xl w-full bg-black/40 border border-cyan-500/30 rounded-2xl p-8 backdrop-blur-md`,children:[(0,k.jsx)(`h2`,{className:`heading-font text-4xl font-bold text-center text-cyan-400 mb-8`,children:`ACCESS TERMINAL`}),(0,k.jsxs)(`div`,{className:`font-mono text-green-400 mb-8`,children:[(0,k.jsx)(`p`,{children:`> Establishing secure connection...`}),(0,k.jsx)(`p`,{className:`mt-2`,children:`> Connection successful.`})]}),(0,k.jsxs)(`div`,{className:`grid md:grid-cols-3 gap-5`,children:[(0,k.jsxs)(`a`,{href:`mailto:anwarazhad00@gmail.com`,className:`border border-cyan-500/30 p-5 rounded-xl hover:scale-105 transition`,children:[(0,k.jsx)($d,{className:`text-cyan-400 text-3xl mb-3`}),(0,k.jsx)(`h3`,{className:`font-semibold`,children:`EMAIL`}),(0,k.jsx)(`p`,{className:`text-green-400 mt-2`,children:`● ONLINE`})]}),(0,k.jsxs)(`a`,{href:`https://github.com/anwarazhad`,target:`_blank`,rel:`noreferrer`,className:`border border-cyan-500/30 p-5 rounded-xl hover:scale-105 transition`,children:[(0,k.jsx)(Qd,{className:`text-cyan-400 text-3xl mb-3`}),(0,k.jsx)(`h3`,{className:`font-semibold`,children:`GITHUB`}),(0,k.jsx)(`p`,{className:`text-green-400 mt-2`,children:`● ONLINE`})]}),(0,k.jsxs)(`a`,{href:`https://www.linkedin.com/in/anwar-azhad-bin-azriddin-123b30259/`,target:`_blank`,rel:`noreferrer`,className:`border border-cyan-500/30 p-5 rounded-xl hover:scale-105 transition`,children:[(0,k.jsx)(Zd,{className:`text-cyan-400 text-3xl mb-3`}),(0,k.jsx)(`h3`,{className:`font-semibold`,children:`LINKEDIN`}),(0,k.jsx)(`p`,{className:`text-green-400 mt-2`,children:`● ONLINE`})]})]}),(0,k.jsxs)(`div`,{className:`flex flex-col sm:flex-row justify-center gap-4 mt-10`,children:[(0,k.jsxs)(`a`,{href:`/anwar-portfolio/AnwarAzhad_Resume.pdf`,target:`_blank`,rel:`noopener noreferrer`,className:`\r
-      inline-flex\r
-      items-center\r
-      justify-center\r
-      gap-3\r
-      px-8\r
-      py-3\r
-      rounded-full\r
-      border\r
-      border-cyan-400\r
-      text-cyan-400\r
-      font-bold\r
-      transition-all\r
-      duration-300\r
-      hover:bg-cyan-400\r
-      hover:text-black\r
-      hover:scale-105\r
-      hover:shadow-[0_0_20px_rgba(34,211,238,0.5)]\r
-    `,children:[(0,k.jsx)(De,{size:20}),`VIEW RESUME`]}),(0,k.jsxs)(`a`,{href:`/anwar-portfolio/AnwarAzhad_Resume.pdf`,download:`AnwarAzhad_Resume.pdf`,className:`\r
+              inline-flex\r
+              items-center\r
+              justify-center\r
+              gap-3\r
+              px-8\r
+              py-3\r
+              rounded-full\r
+              border\r
+             border-cyan-400\r
+             text-cyan-400\r
+              font-bold\r
+              transition-all\r
+              duration-300\r
+             hover:bg-cyan-400\r
+             hover:text-black\r
+              hover:scale-105\r
+              hover:shadow-[0_0_20px_rgba(34,211,238,0.5)]\r
+            `,children:[(0,k.jsx)(De,{size:20}),`VIEW RESUME`]}),(0,k.jsxs)(`a`,{href:`/anwar-portfolio/AnwarAzhad_Resume.pdf`,download:`AnwarAzhad_Resume.pdf`,className:`\r
       inline-flex\r
       items-center\r
       justify-center\r
