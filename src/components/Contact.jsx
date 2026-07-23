@@ -72,24 +72,24 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
             className="
-      inline-flex
-      items-center
-      justify-center
-      gap-3
-      px-8
-      py-3
-      rounded-full
-      border
-      border-cyan-400
-      text-cyan-400
-      font-bold
-      transition-all
-      duration-300
-      hover:bg-cyan-400
-      hover:text-black
-      hover:scale-105
-      hover:shadow-[0_0_20px_rgba(34,211,238,0.5)]
-    "
+              inline-flex
+              items-center
+              justify-center
+              gap-3
+              px-8
+              py-3
+              rounded-full
+              border
+             border-cyan-400
+             text-cyan-400
+              font-bold
+              transition-all
+              duration-300
+             hover:bg-cyan-400
+             hover:text-black
+              hover:scale-105
+              hover:shadow-[0_0_20px_rgba(34,211,238,0.5)]
+            "
           >
             <Eye size={20} />
             VIEW RESUME
