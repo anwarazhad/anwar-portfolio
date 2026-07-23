@@ -35,6 +35,7 @@ const skills = [
 export default function Skills() {
   return (
     <section
+      id="skills"
       className="
 min-h-screen
 flex

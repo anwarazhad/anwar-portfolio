@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 export default function About() {
   return (
     <section
+      id="about"
       className="
 min-h-screen
 px-6
@@ -44,7 +45,7 @@ text-center
 mb-10
 "
         >
-          PERSONAL PROFILE DATABASE
+          PROFILE DATABASE
         </h2>
 
         <div

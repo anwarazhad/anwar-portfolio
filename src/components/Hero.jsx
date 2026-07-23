@@ -1,9 +1,11 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
+import { Link } from "react-scroll";
 
 export default function Hero() {
   return (
     <section
+      id="home"
       className="
 h-screen
 flex
@@ -82,21 +84,25 @@ text-xl
           />
         </p>
 
-        <button
-          className="
-mt-8
-px-8
-py-3
-rounded-full
-bg-cyan-500
-text-black
-font-bold
-hover:scale-110
-transition
-"
-        >
-          Explore My Work
-        </button>
+        <Link to="about" smooth={true} duration={600} offset={-80}>
+          <button
+            className="
+            mt-8
+            px-8
+            py-3
+            rounded-full
+          bg-cyan-500
+          text-black
+            font-bold
+            hover:scale-110
+          hover:bg-cyan-400
+            transition
+            cursor-pointer
+          "
+          >
+            Explore My Work
+          </button>
+        </Link>
       </motion.div>
     </section>
   );

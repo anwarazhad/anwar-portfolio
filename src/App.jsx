@@ -10,7 +10,6 @@ import CyberBackground from "./components/CyberBackground";
 function App() {
   return (
     <>
-      <CyberBackground />
       <Navbar />
       <Hero />
       <About />
@@ -18,6 +17,7 @@ function App() {
       <Projects />
       <Experience />
       <Contact />
+      <CyberBackground />
     </>
   );
 }

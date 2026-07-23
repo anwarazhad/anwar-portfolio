@@ -1,50 +1,83 @@
+import { Link } from "react-scroll";
+
 export default function Navbar() {
   return (
-    <nav
-      className="
-fixed 
-top-0
-w-full
-z-50
-backdrop-blur-md
-bg-black/30
-border-b
-border-cyan-500/20
-"
-    >
-      <div
-        className="
-max-w-6xl
-mx-auto
-flex
-justify-between
-items-center
-p-5
-"
-      >
-        <h1
-          className="
-text-2xl
-font-bold
-text-cyan-400
-"
+    <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-xl bg-black/30 border-b border-cyan-500/20">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-8 py-4">
+        {/* Logo */}
+        <Link
+          to="home"
+          smooth={true}
+          duration={1000}
+          className="cursor-pointer"
         >
-          ANWAR.DEV
-        </h1>
+          <h1
+            className="text-2xl
+            font-bold
+            tracking-wider
+            transition-all
+            duration-300
+            hover:scale-105
+            hover:drop-shadow-[0_0_12px_#22d3ee]"
+          >
+            <span className="text-cyan-400">ANWAR</span>
+            <span className="text-white">.DEV</span>
+          </h1>
+        </Link>
+        {/* Navigation */}
+        <div className="hidden md:flex gap-8">
+          <Link
+            to="about"
+            smooth={true}
+            duration={1000}
+            className="cursor-pointer text-gray-300 hover:text-cyan-400 transition"
+          >
+            ABOUT
+          </Link>
 
-        <div
-          className="
-space-x-8
-text-gray-300
-"
-        >
-          <a>About</a>
+          <Link
+            to="skills"
+            smooth={true}
+            duration={1000}
+            className="cursor-pointer text-gray-300 hover:text-cyan-400 transition"
+          >
+            SKILLS
+          </Link>
 
-          <a>Skills</a>
+          <Link
+            to="projects"
+            smooth={true}
+            duration={1000}
+            className="cursor-pointer text-gray-300 hover:text-cyan-400 transition"
+          >
+            PROJECTS
+          </Link>
 
-          <a>Projects</a>
+          <Link
+            to="experience"
+            smooth={true}
+            duration={1000}
+            className="cursor-pointer text-gray-300 hover:text-cyan-400 transition"
+          >
+            EXPERIENCE
+          </Link>
 
-          <a>Contact</a>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={1000}
+            className="cursor-pointer text-gray-300 hover:text-cyan-400 transition"
+          >
+            CONTACT
+          </Link>
+        </div>
+
+        {/* Status */}
+        <div className="hidden md:flex items-center gap-2">
+          <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
+          <span className="text-green-400 text-sm font-mono">
+            SYSTEM ONLINE
+          </span>
         </div>
       </div>
     </nav>
