@@ -206,8 +206,8 @@ backdrop-blur-md
               </div>
 
               <div className="bg-cyan-500/5 border border-cyan-500/20 rounded-xl p-4 text-center">
-                <p className="text-gray-400 text-sm">CGPA</p>
-                <h4 className="text-3xl font-bold text-green-400 mt-2">3.06</h4>
+                <p className="text-gray-400 text-sm">Languages</p>
+                <h4 className="text-3xl font-bold text-green-400 mt-2">02</h4>
               </div>
             </div>
           </motion.div>
