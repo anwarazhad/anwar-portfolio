@@ -41,6 +41,7 @@ py-20
     >
       <h2
         className="
+heading-font
 text-4xl
 font-bold
 text-center

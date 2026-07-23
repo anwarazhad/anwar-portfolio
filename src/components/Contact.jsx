@@ -14,7 +14,7 @@ export default function Contact() {
         transition={{ duration: 0.7 }}
         className="max-w-4xl w-full bg-black/40 border border-cyan-500/30 rounded-2xl p-8 backdrop-blur-md"
       >
-        <h2 className="text-4xl font-bold text-center text-cyan-400 mb-8">
+        <h2 className="heading-font text-4xl font-bold text-center text-cyan-400 mb-8">
           ACCESS TERMINAL
         </h2>
 

@@ -30,6 +30,7 @@ py-20
     >
       <h2
         className="
+heading-font
 text-4xl
 font-bold
 text-center
@@ -97,6 +98,7 @@ items-center
 justify-center
 text-black
 font-bold
+text-xs
 "
             >
               {exp.year}
