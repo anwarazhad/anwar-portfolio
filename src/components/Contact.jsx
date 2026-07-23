@@ -67,7 +67,7 @@ export default function Contact() {
 
         <div className="text-center mt-10">
           <a
-            href="/src/assets/AnwarAzhad_Resume.pdf"
+            href={`${import.meta.env.BASE_URL}AnwarAzhad_Resume.pdf`}
             download
             className="inline-flex items-center gap-3 px-8 py-3 bg-cyan-400 text-black rounded-full font-bold hover:scale-105 transition"
           >
