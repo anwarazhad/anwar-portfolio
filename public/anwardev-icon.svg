@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer hexagon -->
+  <polygon
+    points="256,48 408,136 408,312 256,400 104,312 104,136"
+    fill="none"
+    stroke="url(#cyanGlow)"
+    stroke-width="14"
+    filter="url(#glow)"
+  />
+
+  <!-- Stylized A -->
+  <path
+    d="M256 118
+       L178 322
+       L212 322
+       L228 278
+       L284 278
+       L300 322
+       L334 322
+       L256 118 Z
+       M239 246
+       L256 196
+       L273 246 Z"
+    fill="url(#cyanGlow)"
+    filter="url(#glow)"
+  />
+
+  <!-- Circuit nodes -->
+  <circle cx="154" cy="154" r="8" fill="#22d3ee"/>
+  <circle cx="358" cy="154" r="8" fill="#22d3ee"/>
+  <circle cx="154" cy="294" r="8" fill="#22d3ee"/>
+  <circle cx="358" cy="294" r="8" fill="#22d3ee"/>
+
+  <line x1="162" y1="154" x2="204" y2="154" stroke="#22d3ee" stroke-width="4"/>
+  <line x1="308" y1="154" x2="350" y2="154" stroke="#22d3ee" stroke-width="4"/>
+  <line x1="162" y1="294" x2="204" y2="294" stroke="#22d3ee" stroke-width="4"/>
+  <line x1="308" y1="294" x2="350" y2="294" stroke="#22d3ee" stroke-width="4"/>
+</svg>
