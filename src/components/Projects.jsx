@@ -3,15 +3,6 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: "001",
-    title: "Personal Portfolio Website",
-    description:
-      "A futuristic developer portfolio built to showcase my skills in cybersecurity, software development and IT technologies.",
-    technology: ["HTML", "CSS", "JavaScript", "React"],
-    status: "COMPLETED",
-  },
-
-  {
-    id: "002",
     title: "Centre for Research & Innovation Management Website",
     description:
       "Developed and customized a modern institutional website using Joomla CMS with YOOtheme Pro for responsive design and content management.",
@@ -20,7 +11,7 @@ const projects = [
   },
 
   {
-    id: "003",
+    id: "002",
     title: "Linux Server Deployment & Security Configuration",
     description:
       "Configured and secured a Linux server environment including authentication services, secure file transfer, monitoring and system hardening.",
@@ -37,7 +28,7 @@ const projects = [
   },
 
   {
-    id: "004",
+    id: "003",
     title: "End-User IT Support & System Maintenance Project",
     description:
       "Provided end-user IT support by troubleshooting hardware, software, and network issues while performing system maintenance and remote assistance.",
