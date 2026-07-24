@@ -37,19 +37,26 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex gap-8">
+        <div className="hidden md:flex gap-4">
           {navItems.map((item) => (
             <Link
               key={item}
               to={item}
+              spy={true}
               smooth={true}
               duration={800}
               offset={-80}
+              activeClass="active-nav"
               className="
                 cursor-pointer
+                px-4
+                py-2
+                rounded-full
                 text-gray-300
                 hover:text-cyan-400
-                transition
+                hover:bg-cyan-500/10
+                transition-all
+                duration-300
                 uppercase
               "
             >
@@ -67,7 +74,7 @@ export default function Navbar() {
           </span>
         </div>
 
-        {/* Mobile Button */}
+        {/* Mobile Menu Button */}
         <button
           className="
             md:hidden
@@ -106,16 +113,23 @@ export default function Navbar() {
             <Link
               key={item}
               to={item}
+              spy={true}
               smooth={true}
               duration={800}
               offset={-70}
+              activeClass="active-nav"
               onClick={() => setMenuOpen(false)}
               className="
                 block
                 cursor-pointer
+                px-4
+                py-2
+                rounded-full
                 text-gray-300
                 hover:text-cyan-400
-                transition
+                hover:bg-cyan-500/10
+                transition-all
+                duration-300
                 uppercase
                 tracking-wider
               "

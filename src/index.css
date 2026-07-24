@@ -31,6 +31,14 @@ body {
   transform: rotateY(180deg);
 }
 
+.active-nav {
+  color: #22d3ee !important;
+  background: rgba(34, 211, 238, 0.12);
+  border: 1px solid rgba(34, 211, 238, 0.35);
+  border-radius: 9999px;
+  box-shadow: 0 0 18px rgba(34, 211, 238, 0.25);
+}
+
 /* ========================================= */
 /* CYBER GRID */
 /* ========================================= */
