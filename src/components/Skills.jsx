@@ -30,7 +30,6 @@ const skills = [
   {
     name: "IT Support",
     tools: [
-      "Windows 10/11",
       "Microsoft 365",
       "Hardware Troubleshooting",
       "Remote Support",
