@@ -21,7 +21,7 @@ const skills = [
   },
   {
     name: "Web Development",
-    tools: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+    tools: ["HTML", "PHP", "CSS", "JavaScript", "React", "Tailwind CSS"],
   },
   {
     name: "Data Analysis",
