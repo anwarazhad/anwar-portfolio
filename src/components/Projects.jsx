@@ -33,7 +33,6 @@ const projects = [
     description:
       "Provided end-user IT support by troubleshooting hardware, software, and network issues while performing system maintenance and remote assistance.",
     technology: [
-      "Windows 10/11",
       "Microsoft 365",
       "Hardware & Software Troubleshooting",
       "Remote Support",
