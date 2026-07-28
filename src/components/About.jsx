@@ -13,13 +13,13 @@ export default function About() {
     <section
       id="about"
       className="
-min-h-screen
-px-6
-py-20
-flex
-items-center
-justify-center
-"
+      min-h-screen
+      px-6
+      py-20
+      flex
+      items-center
+      justify-center
+      "
     >
       <motion.div
         initial={{
