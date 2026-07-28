@@ -166,13 +166,13 @@ terminal-font\r
             hover:bg-cyan-400\r
             hover:shadow-[0_0_20px_rgba(34,211,238,0.6)]\r
             `,children:`▶ ACCESS TERMINAL`})})]})]})}function xd(){return(0,k.jsx)(`section`,{id:`about`,className:`\r
-min-h-screen\r
-px-6\r
-py-20\r
-flex\r
-items-center\r
-justify-center\r
-`,children:(0,k.jsxs)(Yu.div,{initial:{opacity:0,y:50},whileInView:{opacity:1,y:0},transition:{duration:.7},className:`\r
+      min-h-screen\r
+      px-6\r
+      py-20\r
+      flex\r
+      items-center\r
+      justify-center\r
+      `,children:(0,k.jsxs)(Yu.div,{initial:{opacity:0,y:50},whileInView:{opacity:1,y:0},transition:{duration:.7},className:`\r
 max-w-5xl\r
 w-full\r
 bg-black/40\r
