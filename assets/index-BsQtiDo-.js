@@ -382,7 +382,7 @@ mt-3\r
 `,children:e.company}),(0,k.jsxs)(`p`,{className:`\r
 text-gray-400\r
 mt-3\r
-`,children:[`PERIOD:`,e.period]}),(0,k.jsxs)(`p`,{className:`
+`,children:[`Period : `,e.period]}),(0,k.jsxs)(`p`,{className:`
 mt-4
 font-semibold
 
