@@ -140,8 +140,7 @@ text-gray-400
 mt-3
 "
               >
-                PERIOD:
-                {exp.period}
+                Period : {exp.period}
               </p>
 
               <p
