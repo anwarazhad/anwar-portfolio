@@ -152,7 +152,7 @@ ${exp.status === "ACTIVE" ? "text-yellow-400" : "text-green-400"}
 
 `}
               >
-                STATUS: {exp.status}
+                STATUS : {exp.status}
               </p>
             </div>
           </motion.div>
