@@ -29,6 +29,15 @@ const projects = [
 
   {
     id: "003",
+    title: "IT Support Ticket Management System",
+    description:
+      "Developed an IT Support Ticket Management System to simplify the process of submitting, tracking, and managing IT service requests. The application enables users to create support tickets while allowing administrators to monitor ticket status, update progress, and maintain centralized records, improving the efficiency of IT support operations.",
+    technology: ["Microsoft Power Apps", "Microsoft SharePoint"],
+    status: "COMPLETED",
+  },
+
+  {
+    id: "004",
     title: "End-User IT Support & System Maintenance Project",
     description:
       "Provided end-user IT support by troubleshooting hardware, software, and network issues while performing system maintenance and remote assistance.",
