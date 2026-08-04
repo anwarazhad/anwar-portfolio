@@ -6,7 +6,7 @@ const experiences = [
     period: "Mar 2026 - Aug 2026",
     role: "Web Developer Intern",
     company: "Centre for Research & Innovation Management (CRIM) UTeM",
-    status: "ACTIVE",
+    status: "Ongoing",
   },
 
   {
@@ -14,7 +14,7 @@ const experiences = [
     period: "Oct 2022 - Mar 2023",
     role: "IT Help Desk Support",
     company: "Teras Teknologi Sdn Bhd",
-    status: "COMPLETED",
+    status: "Completed",
   },
 ];
 
@@ -148,11 +148,11 @@ mt-3
 mt-4
 font-semibold
 
-${exp.status === "ACTIVE" ? "text-yellow-400" : "text-green-400"}
+${exp.status === "Active" || exp.status === "Ongoing" ? "text-yellow-400" : "text-green-400"}
 
 `}
               >
-                STATUS : {exp.status}
+                Status : {exp.status}
               </p>
             </div>
           </motion.div>
