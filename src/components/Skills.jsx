@@ -24,7 +24,7 @@ const skills = [
     tools: ["HTML", "PHP", "CSS", "JavaScript", "React", "Tailwind CSS"],
   },
   {
-    name: "Data Analysis",
+    name: "Database",
     tools: ["Power BI", "Microsoft Excel", "MySQL", "Oracle"],
   },
   {
