@@ -25,7 +25,7 @@ const skills = [
   },
   {
     name: "Database",
-    tools: ["Power BI", "Microsoft Excel", "MySQL", "Oracle"],
+    tools: ["Microsoft Excel", "MySQL", "Oracle"],
   },
   {
     name: "IT Support",
