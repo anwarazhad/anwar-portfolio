@@ -324,7 +324,7 @@ bg-cyan-500/10\r
 border\r
 border-cyan-400/30\r
 text-cyan-300\r
-`,children:e},t))})]},t))})]})}var Ed=[{year:`2026`,period:`Mar 2026 - Aug 2026`,role:`Web Developer Intern`,company:`Centre for Research & Innovation Management (CRIM) UTeM`,status:`Ongoing`},{year:`2022`,period:`Oct 2022 - Mar 2023`,role:`IT Help Desk Support`,company:`Teras Teknologi Sdn Bhd`,status:`Completed`}];function Dd(){return(0,k.jsxs)(`section`,{id:`experience`,className:`\r
+`,children:e},t))})]},t))})]})}var Ed=[{year:`2026`,period:`Mar 2026 - Aug 2026`,role:`Web Developer Intern`,company:`Centre for Research & Innovation Management (CRIM) UTeM`,status:`Completed`},{year:`2022`,period:`Oct 2022 - Mar 2023`,role:`IT Help Desk Support`,company:`Teras Teknologi Sdn Bhd`,status:`Completed`}];function Dd(){return(0,k.jsxs)(`section`,{id:`experience`,className:`\r
 min-h-screen\r
 px-6\r
 py-20\r
