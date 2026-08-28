@@ -6,7 +6,7 @@ const experiences = [
     period: "Mar 2026 - Aug 2026",
     role: "Web Developer Intern",
     company: "Centre for Research & Innovation Management (CRIM) UTeM",
-    status: "Ongoing",
+    status: "Completed",
   },
 
   {
